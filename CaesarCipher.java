@@ -2,7 +2,7 @@ import java.io.*;
 import java.util.*;
 public class Main{
   public static final String ALPHABET = "abcdefghijklmnopqrstuvwxyz";
-
+ 
   public static String encrypt(String plaintext, int shiftKey) {
     plaintext = plaintext.toLowerCase();
     StringBuilder ciphertext = new StringBuilder();
