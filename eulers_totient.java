@@ -5,7 +5,7 @@ public class EulerTotient {
             int temp = b;
             b = a % b;
             a = temp;
-        }
+        } 
         return a;
     }
     public static void main(String args[]) {
