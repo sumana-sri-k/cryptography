@@ -1,7 +1,7 @@
 import java.util.Scanner;
 public class VigenereCipher {
     public static String encrypt(String plaintext, String key) {
-        plaintext = plaintext.toUpperCase();
+        plaintext = plaintext.toUpperCase(); 
         key = key.toUpperCase();
         StringBuilder ciphertext = new StringBuilder();
 
