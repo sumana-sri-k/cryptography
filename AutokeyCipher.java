@@ -3,7 +3,7 @@ public class AutokeyCipher {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter the key: ");
-        String key = scanner.nextLine();
+        String key = scanner.nextLine(); 
         System.out.print("Enter the plaintext: ");
         String plaintext = scanner.nextLine();
         String ciphertext = encrypt(plaintext, key);
